@@ -20,18 +20,9 @@ namespace NBC
     /// </summary>
     public partial class MainWindow : Window
     {
-
-        private CategoryManager classifier;
         public MainWindow()
         {
             InitializeComponent();
-
-            this.classifier = new CategoryManager();
-        }
-
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-            classifier.DoWork();
         }
     }
 }
